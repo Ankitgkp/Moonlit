@@ -130,14 +130,7 @@
   }
 
   .hero-navigation {
-    padding: 0 20px;
-    bottom: 40%;
-  }
-
-  .hero-navigation button {
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
+    display: none;
   }
 }
 
