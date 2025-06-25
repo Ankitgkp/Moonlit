@@ -1,0 +1,327 @@
+
+.facilities-section {
+  padding: 80px 0;
+  background: #f9f9f9;
+}
+
+.facilities-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.facilities-label {
+  font-family: "Gilda Display", serif;
+  font-size: 18px;
+  color: #b3916e;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.facilities-label::before,
+.facilities-label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 1px;
+  background: #b3916e;
+}
+
+.facilities-label::before {
+  left: -60px;
+}
+
+.facilities-label::after {
+  right: -60px;
+}
+
+.facilities-header h2 {
+  font-family: "Gilda Display", serif;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: #23233a;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.facility-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.facility-icon {
+  margin-bottom: 25px;
+}
+
+.facility-icon i {
+  font-size: 48px;
+  color: #b3916e;
+  transition: all 0.3s ease;
+}
+
+.facility-card:hover .facility-icon i {
+  transform: scale(1.1);
+}
+
+.facility-card h3 {
+  font-family: "Gilda Display", serif;
+  font-size: 1.4rem;
+  color: #23233a;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.5px;
+}
+
+.facility-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #6d6d6d;
+  margin: 0;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .facilities-grid {
+    padding: 0 20px;
+    gap: 25px;
+  }
+
+  .facility-card {
+    padding: 35px 25px;
+  }
+
+  .facilities-header h2 {
+    font-size: 2.8rem;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .facilities-grid {
+    gap: 20px;
+  }
+
+  .facility-card {
+    padding: 30px 20px;
+  }
+
+  .facility-icon i {
+    font-size: 42px;
+  }
+
+  .facility-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .facilities-header h2 {
+    font-size: 2.5rem;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .facilities-section {
+    padding: 60px 0;
+  }
+
+  .facilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .facility-card {
+    padding: 35px 25px;
+  }
+
+  .facilities-header {
+    margin-bottom: 50px;
+  }
+
+  .facilities-header h2 {
+    font-size: 2.8rem;
+  }
+
+  .facilities-label::before,
+  .facilities-label::after {
+    width: 40px;
+  }
+
+  .facilities-label::before {
+    left: -55px;
+  }
+
+  .facilities-label::after {
+    right: -55px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .facilities-section {
+    padding: 50px 0;
+  }
+
+  .facilities-grid {
+    gap: 20px;
+  }
+
+  .facility-card {
+    padding: 30px 20px;
+  }
+
+  .facility-icon i {
+    font-size: 38px;
+  }
+
+  .facility-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .facility-card p {
+    font-size: 14px;
+  }
+
+  .facilities-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .facilities-label::before,
+  .facilities-label::after {
+    width: 35px;
+  }
+
+  .facilities-label::before {
+    left: -50px;
+  }
+
+  .facilities-label::after {
+    right: -50px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .facilities-section {
+    padding: 40px 0;
+  }
+
+  .facilities-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .facility-card {
+    padding: 30px 25px;
+    margin: 0 10px;
+  }
+
+  .facilities-header {
+    margin-bottom: 40px;
+  }
+
+  .facilities-header h2 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .facility-icon {
+    margin-bottom: 20px;
+  }
+
+  .facility-icon i {
+    font-size: 36px;
+  }
+
+  .facility-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .facilities-label::before,
+  .facilities-label::after {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .facilities-section {
+    padding: 35px 0;
+  }
+
+  .facility-card {
+    padding: 25px 20px;
+    margin: 0 5px;
+  }
+
+  .facilities-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .facility-icon i {
+    font-size: 32px;
+  }
+
+  .facility-card h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .facility-card p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .facilities-section {
+    padding: 30px 0;
+  }
+
+  .facility-card {
+    padding: 20px 15px;
+  }
+
+  .facilities-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .facility-icon i {
+    font-size: 28px;
+  }
+
+  .facility-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .facility-card p {
+    font-size: 12px;
+  }
+}

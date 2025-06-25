@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gilda Display", serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-weight: 400;
+  font-family: "Gilda Display", serif;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-primary {
+  background: #b3916e;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 22px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  background: #a07d5a;
+}
+
+.btn-outline {
+  background: #fff;
+  border: 1.2px solid #dedede;
+  color: #23233a;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 22px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.btn-outline:hover {
+  background: #f7f7f7;
+  color: #b3916e;
+  border-color: #b3916e;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}

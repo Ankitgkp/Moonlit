@@ -1,0 +1,180 @@
+.booking-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -55px;
+  margin-bottom: 36px;
+  position: relative;
+  z-index: 10;
+}
+
+.booking-form {
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 26px 18px 26px 28px;
+  width: 92%;
+  max-width: 1280px;
+  min-width: 320px;
+}
+
+.booking-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  flex: 1 1 0;
+}
+
+.booking-label-title {
+  font-family: "Gilda Display", serif;
+  font-size: 22px;
+  color: #23233a;
+  margin-bottom: 7px;
+  font-weight: 400;
+}
+
+.booking-input-group {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+  padding: 10px 16px;
+  gap: 12px;
+  font-size: 18px;
+  color: #6d6d6d;
+}
+
+.booking-input-group i {
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.booking-input-group input[type="date"] {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-family: "Gilda Display", serif;
+  background: transparent;
+  color: #23233a;
+  padding: 4px 0;
+  width: 120px;
+}
+
+.booking-input-group select {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-family: "Gilda Display", serif;
+  background: transparent;
+  color: #23233a;
+  padding: 4px 0;
+  width: 100px;
+}
+
+.booking-btn-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  flex: 0 0 170px;
+}
+
+.booking-btn {
+  width: 100%;
+  font-size: 20px;
+  padding: 15px 0;
+  border-radius: 12px;
+  background: #b3916e;
+  color: #fff;
+  border: none;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  transition: background 0.2s;
+}
+
+.booking-btn:hover {
+  background: #a07d5a;
+}
+
+@media (max-width: 768px) {
+  .booking-section {
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  .booking-form {
+    flex-direction: column;
+    padding: 20px 16px;
+    gap: 20px;
+    width: 95%;
+    border-radius: 16px;
+  }
+
+  .booking-field {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .booking-label-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .booking-input-group {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+
+  .booking-input-group input[type="date"] {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .booking-input-group select {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .booking-btn-field {
+    min-width: unset;
+    flex: unset;
+    width: 100%;
+  }
+
+  .booking-btn {
+    font-size: 18px;
+    padding: 14px 0;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-form {
+    padding: 16px 12px;
+    gap: 16px;
+    width: 98%;
+  }
+
+  .booking-label-title {
+    font-size: 16px;
+  }
+
+  .booking-input-group {
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+
+  .booking-input-group input[type="date"],
+  .booking-input-group select {
+    font-size: 15px;
+  }
+
+  .booking-btn {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+}

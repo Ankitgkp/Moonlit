@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moonlit - Hotel and Resturant HTML Template</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://altellect.com.shrivastavaprofunnels.com/assets/images/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="booking.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="facilities.css" />
+    <link rel="stylesheet" href="rooms.css" />
+    <link rel="stylesheet" href="video.css" />
+    <link rel="stylesheet" href="testimonials.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="special-offer.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="contact-info">
+        <div class="container">
+          <div class="contact-details">
+            <p><i class="fas fa-phone"></i> +12505550199</p>
+            <p><i class="fas fa-envelope"></i> moonlit@gmail.com</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 280 Augusta Avenue, M5T 2L9
+              Toronto, Canada
+            </p>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Rooms</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img
+              src="https://altellect.com.shrivastavaprofunnels.com/assets/images/logo/logo.svg"
+              alt="Moonlit"
+            />
+          </div>
+          <div class="auth-buttons">
+            <a href="#" class="btn btn-outline">Sign In</a>
+            <a href="#" class="btn btn-outline">Sign Up</a>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="container">
+          <div class="welcome-text">
+            <h2>Welcome to Our Spa</h2>
+          </div>
+          <div class="hero-title">
+            <h1>Lavish Getaway A Blend of</h1>
+            <h1>Comfort & Style</h1>
+          </div>
+          <div class="hero-description">
+            <p>
+              Choosing Bokinn was one of the best decisions we've ever made.
+              They have proven to be a reliable and innovative partner
+            </p>
+          </div>
+          <div class="hero-button">
+            <a href="#" class="btn btn-primary">Discover Room</a>
+          </div>
+          <div class="hero-navigation">
+            <button class="prev-btn"><i class="fas fa-arrow-left"></i></button>
+            <button class="next-btn"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+    <section class="booking-section">
+      <form class="booking-form">
+        <div class="booking-field">
+          <label for="checkin"
+            ><span class="booking-label-title">Check In</span></label
+          >
+          <div class="booking-input-group">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="date" id="checkin" name="checkin" required />
+          </div>
+        </div>
+        <div class="booking-field">
+          <label for="checkout"
+            ><span class="booking-label-title">Check Out</span></label
+          >
+          <div class="booking-input-group">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="date" id="checkout" name="checkout" required />
+          </div>
+        </div>
+        <div class="booking-field">
+          <label for="adults"
+            ><span class="booking-label-title">Adult</span></label
+          >
+          <div class="booking-input-group">
+            <i class="fas fa-user"></i>
+            <select id="adults" name="adults">
+              <option>1 Person</option>
+              <option>2 Persons</option>
+              <option>3 Persons</option>
+              <option>4 Persons</option>
+            </select>
+          </div>
+        </div>
+        <div class="booking-field">
+          <label for="children"
+            ><span class="booking-label-title">Child</span></label
+          >
+          <div class="booking-input-group">
+            <i class="fas fa-user"></i>
+            <select id="children" name="children">
+              <option>1 Child</option>
+              <option>2 Children</option>
+              <option>3 Children</option>
+              <option>4 Children</option>
+            </select>
+          </div>
+        </div>
+        <div class="booking-field booking-btn-field">
+          <button type="submit" class="btn btn-primary booking-btn">
+            Check Now
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-header">
+              <span class="about-label">About Us</span>
+              <h2>Welcome To Our Moonlit Hotel & Resort</h2>
+            </div>
+            <div class="about-description">
+              <p>
+                Welcome to Bokinn, where luxury meets comfort in the heart of
+                canada. Since 1999, we have been dedicated to providing an
+                exceptional stay for our guests, blending modern amenities with
+                timeless elegance. Our beautifully designed rooms and suites
+                offer stunning views and plush accommodations, ensuring a
+                restful retreat whether you're here for business or leisure.
+              </p>
+            </div>
+            <div class="about-button">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="experience-badge">
+              <div class="experience-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="experience-text">
+                <span class="experience-number">50+</span>
+                <span class="experience-label">Experience Staff</span>
+              </div>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt="Luxury Hotel Room"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="facilities-section">
+      <div class="container">
+        <div class="facilities-header">
+          <span class="facilities-label">Facilities</span>
+          <h2>Hotel Facilities</h2>
+        </div>
+        <div class="facilities-grid">
+          <div class="facility-card">
+            <div class="facility-icon">
+              <i class="fas fa-bed"></i>
+            </div>
+            <h3>Rooms and Suites</h3>
+            <p>
+              Varied types of rooms, from standard to luxury suites, equipped
+              with essentials like beds.
+            </p>
+          </div>
+          <div class="facility-card">
+            <div class="facility-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>24-Hour Security</h3>
+            <p>
+              On-site security personnel and best surveillance. from standard to
+              luxury suites, Secure storage for valuables.
+            </p>
+          </div>
+          <div class="facility-card">
+            <div class="facility-icon">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+            <h3>Fitness Center</h3>
+            <p>
+              Equipped with exercise machines and weights. Offering massages,
+              facials, and other treatments.
+            </p>
+          </div>
+          <div class="facility-card">
+            <div class="facility-icon">
+              <i class="fas fa-swimmer"></i>
+            </div>
+            <h3>Swimming Pool</h3>
+            <p>
+              Indoor or outdoor pools for leisure or exercise. Offering
+              massages, facials, and other treatments
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="rooms-section">
+      <div class="container">
+        <div class="rooms-header">
+          <div class="rooms-header-content">
+            <div class="rooms-header-left">
+              <span class="rooms-label">Room</span>
+              <h2>Our Rooms</h2>
+            </div>
+            <div class="rooms-header-right">
+              <p>
+                Our rooms offer a harmonious blend of comfort and elegance,
+                designed to provide an exceptional stay for every guest. Each
+                room features plush bedding, high-quality linens, and a
+                selection of pillows to ensure a restful night's sleep.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rooms-grid">
+          <div class="room-card">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="The Ritz-Carlton Room"
+              />
+            </div>
+            <div class="room-content">
+              <h3>The Ritz-Carlton</h3>
+              <div class="room-details">
+                <div class="room-detail">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                  <span>35 sqm</span>
+                </div>
+                <div class="room-detail">
+                  <i class="fas fa-users"></i>
+                  <span>2 Person</span>
+                </div>
+              </div>
+              <div class="room-price">100$</div>
+            </div>
+          </div>
+          <div class="room-card">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
+                alt="Four Seasons Hotels Room"
+              />
+            </div>
+            <div class="room-content">
+              <h3>Four Seasons Hotels</h3>
+              <div class="room-details">
+                <div class="room-detail">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                  <span>35 sqm</span>
+                </div>
+                <div class="room-detail">
+                  <i class="fas fa-users"></i>
+                  <span>2 Person</span>
+                </div>
+              </div>
+              <div class="room-price">130$</div>
+            </div>
+          </div>
+          <div class="room-card">
+            <div class="room-image">
+              <img
+                src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="Waldorf Astoria Hotels Room"
+              />
+            </div>
+            <div class="room-content">
+              <h3>Waldorf Astoria Hotels</h3>
+              <div class="room-details">
+                <div class="room-detail">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                  <span>35 sqm</span>
+                </div>
+                <div class="room-detail">
+                  <i class="fas fa-users"></i>
+                  <span>5 Person</span>
+                </div>
+              </div>
+              <div class="room-price">150$</div>
+            </div>
+          </div>
+        </div>
+        <div class="rooms-pagination">
+          <div class="pagination-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="testimonials-header">
+          <span class="testimonials-label">Testimonial</span>
+          <h2>What Our Client Say</h2>
+        </div>
+        <div class="testimonials-content">
+          <div class="testimonial-navigation">
+            <button class="testimonial-prev-btn">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+          </div>
+          <div class="testimonial-main">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="testimonial-text">
+              <p>
+                Choosing Bokinn was one of the best decisions we've ever made.
+                They have proven to be a reliable and innovative partner, always
+                ready to tackle new challenges with and expertise. Their
+                commitment to and delivering tailored.
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-image">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                  alt="Sarah Martinez"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Sarah Martinez</h4>
+                <p>COO of Apex Solutions</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-navigation">
+            <button class="testimonial-next-btn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="video-section">
+      <div class="container">
+        <div class="video-container">
+          <div class="video-background">
+            <div class="video-text-overlay">
+              <div class="circular-text">
+                <svg viewBox="0 0 180 180">
+                  <defs>
+                    <path
+                      id="circle"
+                      d="M 90, 90 m -70, 0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0"
+                    />
+                  </defs>
+                  <text>
+                    <textPath href="#circle" startOffset="0%">
+                      Watch Now • Video Tour • Watch Now • Video Tour •
+                    </textPath>
+                  </text>
+                </svg>
+              </div>
+            </div>
+            <a
+              href="https://www.youtube.com/watch?v=qOwxqRGHy5Q"
+              target="_blank"
+              class="video-play-button"
+            >
+              <!-- Play icon will be created with CSS -->
+            </a>
+            <div class="video-content"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Video Section -->
+
+    <!-- Special Offer Section -->
+    <section class="special-offer-section">
+      <div class="container">
+        <div class="special-offer-header">
+          <span class="special-offer-label">Special Offer</span>
+          <h2>Special Offer</h2>
+          <p>
+            Experience the ultimate in luxury and relaxation with our exclusive
+            special offer!<br />
+            Book your stay now and enjoy 20% off our best available rates.
+          </p>
+        </div>
+        <div class="special-offer-grid">
+          <div class="offer-card">
+            <div class="offer-image">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Family Fun Package"
+              />
+            </div>
+            <div class="offer-content">
+              <h3>Family Fun Package</h3>
+              <ul class="offer-features">
+                <li><i class="fas fa-check"></i> 15% off on family suites</li>
+                <li>
+                  <i class="fas fa-check"></i> Free meals for kids under 12
+                </li>
+                <li><i class="fas fa-check"></i> Complimentary tickets</li>
+                <li><i class="fas fa-check"></i> The local amusement park</li>
+                <li>
+                  <i class="fas fa-check"></i> Daily family-friendly activities
+                </li>
+              </ul>
+              <a href="#" class="offer-btn">Book Now</a>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-image">
+              <img
+                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Spa Retreat"
+              />
+            </div>
+            <div class="offer-content">
+              <h3>Spa Retreat</h3>
+              <ul class="offer-features">
+                <li>
+                  <i class="fas fa-check"></i> A two-night stay in a premium
+                  room
+                </li>
+                <li><i class="fas fa-check"></i> Daily spa treatments</li>
+                <li>
+                  <i class="fas fa-check"></i> Healthy breakfast and lunch
+                  options
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Access to all spa facilities
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> 25% off for stays of 7 nights or
+                  more
+                </li>
+              </ul>
+              <a href="#" class="offer-btn">Book Now</a>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-image">
+              <img
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Business Traveler Special"
+              />
+            </div>
+            <div class="offer-content">
+              <h3>Business Traveler Special</h3>
+              <ul class="offer-features">
+                <li><i class="fas fa-check"></i> 10% off on executive rooms</li>
+                <li>
+                  <i class="fas fa-check"></i> Complimentary high-speed Wi-Fi
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Access to the business lounge
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Free airport shuttle service
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Daily family-friendly activities
+                </li>
+              </ul>
+              <a href="#" class="offer-btn">Book Now</a>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-image">
+              <img
+                src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Romantic Getaway"
+              />
+            </div>
+            <div class="offer-content">
+              <h3>Romantic Getaway</h3>
+              <ul class="offer-features">
+                <li>
+                  <i class="fas fa-check"></i> A two-night stay in a deluxe
+                  suite
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> A bottle of champagne and
+                  chocolates
+                </li>
+                <li><i class="fas fa-check"></i> Romantic dinner for two</li>
+                <li><i class="fas fa-check"></i> Couples massage at our spa</li>
+                <li><i class="fas fa-check"></i> Couples massage at our spa</li>
+              </ul>
+              <a href="#" class="offer-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-header">
+          <span class="gallery-label">Gallery</span>
+          <h2>Our Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Modern Hotel Suite"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Luxury Living Room"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Elegant Bedroom"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Premium Lounge"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container">
+        <!-- Newsletter Section -->
+        <div class="newsletter-section">
+          <div class="newsletter-content">
+            <h2>Join Our Newsletter</h2>
+          </div>
+          <div class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your mail"
+              class="newsletter-input"
+            />
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------->
+
+        <div class="footer-main">
+          <div class="footer-column footer-brand">
+            <div class="footer-logo">
+              <img
+                src="https://altellect.com.shrivastavaprofunnels.com/assets/images/logo/logo.svg"
+                alt="Moonlit"
+              />
+            </div>
+            <p>
+              Each room features plush bedding, high-quality linens, and a
+              selection of ensure a restful night's sleep.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#">Rooms & Suites</a></li>
+              <li><a href="#">Dining</a></li>
+              <li><a href="#">Spa & Wellness</a></li>
+              <li><a href="#">Special Offers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Guest Service</h4>
+            <ul class="footer-links">
+              <li><a href="#">24/7 Front Desk</a></li>
+              <li><a href="#">Parking</a></li>
+              <li><a href="#">Room Service</a></li>
+              <li><a href="#">Free Wi-Fi</a></li>
+              <li><a href="#">Concierge Service</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+12505550199</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>Moonlit@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>M5T 2L9 Toronto, Canada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------->
+
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            <p>Copyright © 2025 Moonlit. All rights reserved.</p>
+          </div>
+          <div class="footer-social-links">
+            <a href="#">Facebook</a>
+            <span>|</span>
+            <a href="#">Linkedin</a>
+            <span>|</span>
+            <a href="#">Twitter</a>
+          </div>
+          <div class="scroll-to-top">
+            <button class="scroll-top-btn">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <script src="index.js"></script>
+  </body>
+</html>
