@@ -1,4 +1,3 @@
-
 .contact-info {
   padding: 10px 0;
   font-size: 15px;
@@ -86,7 +85,6 @@
   justify-self: end;
 }
 
-
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -170,7 +168,6 @@
   color: #cccccc;
 }
 
-
 @media (max-width: 1200px) {
   .navbar .container {
     padding: 0 20px;
@@ -228,16 +225,12 @@
 }
 
 @media (max-width: 768px) {
-  .contact-details {
-    justify-content: center;
+  .contact-info {
+    display: none;
   }
 }
 
 @media (max-width: 576px) {
-  .contact-details p {
-    font-size: 12px;
-  }
-
   .welcome-text h2 {
     font-size: 18px;
     padding: 0 20px;
